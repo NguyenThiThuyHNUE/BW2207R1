@@ -11,10 +11,12 @@
         box-sizing: border-box;
     }
     #header {
+        width: 100%;
         height: 70px;
         background-color: rgb(17, 17, 117);
         color: cornsilk;
         text-align: center;
+        position: fixed;
     }
     #sidebar {
         float: left;
@@ -39,8 +41,10 @@
 </style>
 <body>
     <div id="header">Day la header</div>
-    <div id="sidebar">Day la noi dung trai</div>
-    <div id="content"> Day la noi dung chinh</div>
+    <div>
+        <div id="sidebar">Day la noi dung trai</div>
+        <div id="content"> Day la noi dung chinh</div>
+    </div>
     <div id="footer"> Day la footer</div>
 </body>
 </html>
